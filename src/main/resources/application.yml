@@ -1,0 +1,11 @@
+logging:
+  path: /usr/local/jars/log/${spring.application.name}
+spring:
+  application:
+    name: msa-weather-data-server
+  redis:
+    password: 123456
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
